@@ -1,0 +1,217 @@
+.header {
+  /* Rectangle 3 */
+  position: absolute;
+  width: 100vw;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #F5CD40;
+  z-index: 15;
+}
+
+.header h1 {
+
+  /* Tutor Spot */
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 233px;
+  height: 72px;
+  left: 88px;
+  top: 5px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+
+  /* identical to box height, or 72px */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.logo {
+  /* b9f4abfe-bcfa-4581-9b37-0395d72f2acf 2 */
+  position: absolute;
+  width: 70px;
+  height: 75px;
+  left: 10px;
+  top: 1px;
+  background: url(b9f4abfe-bcfa-4581-9b37-0395d72f2acf.jpg);
+  border-radius: 75px;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 48px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  width: 344px;
+  height: 30px;
+  right: 95px;
+  top: 27px;
+}
+
+
+
+/* body {
+  background-color: #FFF9DB;
+} */
+
+.b1 img{
+  /* background-image: url('./images/background.png'); */
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: repeat-x;
+  width: 100vw;
+  height: 500px;
+  position: absolute;
+  left: 0px;
+  top: 78px;
+  border-top: 1px solid yellow;
+  border-right: 1px solid yellow;
+  opacity: 0.7;
+}
+
+.moto-text {
+  position: absolute;
+  left: 340px;
+  top: 50px;
+  font-size: 90px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+.about {
+  position: absolute;
+  top: 600px;
+  /* background-color: #e3c352; */
+  left: 0px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.head {
+  text-align: center;
+  font-size: 50px;
+}
+
+.text-about {
+  text-align: center;
+  font-size: 35px;
+}
+
+.services {
+  position: absolute;
+  top: 900px;
+}
+
+.service-text {
+  /* text-align: center; */
+  font-size: 50px;
+  position: absolute;
+  left: 650px;
+  top: 90px;
+}
+
+.option-text1 {
+  position: absolute;
+  top: 225px;
+  left: 290px;
+  font-size: 45px;
+  /* text-wrap: nowrap; */
+}
+
+.option-text2 {
+  position: absolute;
+  top: 223px;
+  left: 890px;
+  font-size: 45px;
+  text-wrap: nowrap;
+}
+
+button{
+  width: 25rem;
+  height: 5rem;
+  border-radius: 1rem;
+}
+
+#arrow1 {
+  position: absolute;
+  top: 290px;
+  left: 530px;
+}
+
+#arrow2 {
+  position: absolute;
+  top: 290px;
+  left: 1260px;
+}
+
+.circle1 {
+  /* Ellipse 2 */
+
+  position: absolute;
+  width: 78.81px;
+  height: 80.19px;
+  left: 200.16px;
+  top: 250px;
+
+  background: #F5CD40;
+  border-radius: 150px;
+}
+
+.circle2 {
+  /* Ellipse 2 */
+
+  position: absolute;
+  width: 78.81px;
+  height: 80.19px;
+  left: 800.16px;
+  top: 250px;
+  border-radius: 150px;
+  background: #F5CD40;
+
+}
+
+
+
+.footer {
+
+  /* Frame 3 */
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  /* left: 0px; */
+  top: 1300px;
+  background: #000000;
+}
+
+.footer p {
+
+  /* 2024 Copyright | All rights reserved */
+  position: absolute;
+  width: 371px;
+  height: 21px;
+  left: 600px;
+  /* top: 150px; */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
